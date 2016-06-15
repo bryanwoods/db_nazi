@@ -24,6 +24,11 @@ module DBNazi
         super
       end
 
+      def add_reference(table_name, ref_name, options = {})
+        DBNazi.check_reference(options)
+        super
+      end
+
       def change_column(table_name, column_name, type, options = {})
         DBNazi.check_column(type, options)
         super

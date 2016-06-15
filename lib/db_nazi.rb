@@ -76,6 +76,11 @@ module DBNazi
           raise IndexUniquenessRequired, "[db_nazi] :unique parameter required"
       end
     end
+
+    def check_reference(options)
+      check_index(options) and
+        self.require_index_uniqueness = false
+    end
   end
 
   reset
