@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 gemspec
 
 case ENV['DB_NAZI_ADAPTER']
