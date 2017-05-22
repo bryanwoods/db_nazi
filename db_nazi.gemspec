@@ -18,6 +18,6 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency 'activerecord', '~> 5'
   gem.add_development_dependency 'ritual', '~> 0.4.1'
-  gem.add_development_dependency 'minitest', '~> 3.1.0'
+  gem.add_development_dependency 'minitest', '~> 5.1.0'
   gem.add_development_dependency 'temporaries', '~> 0.3.0'
 end
