@@ -1,5 +1,5 @@
 module DBNazi
-  VERSION = [0, 0, 3]
+  VERSION = [0, 0, 6]
 
   class << VERSION
     include Comparable
