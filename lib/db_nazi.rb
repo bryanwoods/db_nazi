@@ -1,3 +1,5 @@
+require 'active_support'
+
 module DBNazi
   autoload :AbstractAdapter, 'db_nazi/abstract_adapter'
   autoload :Migration, 'db_nazi/migration'
